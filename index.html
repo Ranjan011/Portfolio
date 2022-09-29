@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section class="navbar">
+        <a href="#" class="name">RANJAN</a>
+        <ul class="nav active">
+          <li class="nav-item"><a href="#sec-1" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#sec-2" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#sec-3" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#sec-4" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#sec-5" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" onclick="toggleMobileMenu(this)">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </section>
+    </header>
+
+    
+
+    <main class="main">
+      <section class="section-1" id="sec-1">
+        <article class="article-1">
+          <!-- <h2 data-text="Welcome..." class="wel">Welcome...</h2> -->
+          <h2 class="main-title">
+            Hello,<br />
+            I'm <span data-text="Krishna">Krishna</span> Ranjan
+          </h2>
+          <!-- <p class="para">
+            I design beautiful and easy to use online experiences.
+          </p>
+          <p class="para">
+            User-friendly is the keyword throughout the process
+          </p> -->
+
+          <div class="wrapper">
+            <div class="static-txt">I,m a</div>
+            <ul class="dynamic-txt">
+                <li><span>Youtuber</span></li>
+                <li><span>Designer</span></li>
+                <li><span>Developer</span></li>
+                <li><span>FreeLancer</span></li>
+            </ul>
+        </div>
+
+          <!-- <button class="btn">Get In Touch</button> -->
+        </article>
+      </section>
+      <hr />
+
+      <section class="section-2">
+        <div class="box" id="sec-2">
+          <article class="article-2-1">
+            <figure>
+              <img src="/images/ranjan1.JPEG" alt="myphoto" class="myimg" />
+            </figure>
+          </article>
+
+          <article class="article-2">
+            <h2 class="title">About Me</h2>
+            <p class="about-para">
+              I'm Krishna Ranjan, a student and talented website designer with
+              front end development skills. I am passionate to face challenging
+              problems and create delightful experiences.I honed my skills at
+              web development ,technical writing ,product design and SEO
+              analytics.
+            </p>
+
+            <p class="about-para">
+              I develop websites with HTML, CSS and JAVASCRIPT. I have top
+              skills in using design software like Figma, Adobe XD, Invision and
+              Photoshop; with prototype tools like Framer and Prototypie.
+            </p>
+
+            <p class="about-para">
+              Being a diligent , hardworking and result oriented guy , I always
+              work towards achieving best result on each product I lay my hands
+              on.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="section-3">
+        <div class="skill" id="sec-3">
+          <h1>my skill</h1>
+
+          <li>
+            <h3>html</h3>
+            <span class="bar1"><span class="html"></span></span>
+          </li>
+
+          <li>
+            <h3>css</h3>
+            <span class="bar1"><span class="css"></span></span>
+          </li>
+
+          <li>
+            <h3>javascript</h3>
+            <span class="bar1"><span class="javascript"></span></span>
+          </li>
+
+          <li>
+            <h3>java</h3>
+            <span class="bar1"><span class="java"></span></span>
+          </li>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="section-4">
+        <div class="project" id="sec-4">
+          <article class="article-4-1">
+            <div class="box-4">
+              <article>
+                <h2>Project -1 :</h2>
+                <h2>Net-Flix Clone</h2>
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/Ranjan011/NetFlix-clone"
+                    target="_blank"
+                    >See More</a
+                  >
+                </button>
+              </article>
+              <figure>
+                <img class="project-img" src="/images/net.png" alt="#" />
+              </figure>
+            </div>
+          </article>
+
+          <article class="article-4-1">
+            <div class="box-4">
+              <article>
+                <h2>Project - 2 :</h2>
+                <h2>Amazon clone</h2>
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/Ranjan011/Amazon-Homepage"
+                    target="_blank"
+                    >See More</a
+                  >
+                </button>
+              </article>
+              <figure>
+                <img class="amazon-project" src="/images/ama.png" alt="#" />
+              </figure>
+            </div>
+          </article>
+
+          <article class="article-4-1">
+            <div class="box-4">
+              <article>
+                <h2>Project - 3 :</h2>
+                <h2>Calendar 2022</h2>
+                <!-- <p>This is a little project which is the calendar of year 2022</p> -->
+                <button class="project-btn">
+                  <a
+                    href="https://github.com/Ranjan011/Calendar-2022"
+                    target="_blank"
+                    >See More</a
+                  >
+                </button>
+              </article>
+              <figure>
+                <img class="project-img" src="/images/cal.png" alt="#" />
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="section-5" id="sec-5">
+        <div class="box-5-1">
+          <article>
+            <h2 class="contact-me">Contact Me</h2>
+            <p>
+              <i class="fa fa-telegram icon-large icon"></i>contact@example.com
+            </p>
+            <p><i class="fa fa-phone icon-large icon"></i>0123456789</p>
+            <figure>
+              <i class="fa fa-facebook icon-large icon"></i>
+              <i class="fa fa-twitter icon-large icon"></i>
+              <i class="fa fa-instagram icon-large icon"></i>
+              <i class="fa fa-linkedin icon-large icon"></i>
+            </figure>
+            <button class="download-cv">Download CV</button>
+          </article>
+        </div>
+
+        <div class="box-5-2">
+          <form action="#" class="form">
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              id="#"
+              placeholder="Your Name"
+            /><br /><br />
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              id="#"
+              placeholder="Your Email"
+            /><br /><br />
+            <input
+              class="form-message"
+              type="text"
+              name="message"
+              id="#"
+              placeholder="Your Message"
+            /><br /><br />
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+    <footer class="footer">
+      <h3>Copyright &copy; Krishna Ranjan</h3>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
